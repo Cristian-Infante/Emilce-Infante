@@ -229,9 +229,6 @@
   padding-bottom: 40px;
   background-color: var(--dl-color-scheme-white);
 }
-.services-card:hover {
-  background-color: rgba(145, 67, 50, 0.1);
-}
 .mobile-menu {
   top: 0px;
   left: 0px;

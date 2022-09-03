@@ -17,6 +17,9 @@
   text-transform: capitalize;
   text-decoration: none;
 }
+.navigation-links-text:hover {
+  box-shadow: inset 0px -2px 0px #FF0000;
+}
 .navigation-links-text1 {
   cursor: pointer;
   font-size: 16px;
@@ -30,6 +33,9 @@
   text-transform: capitalize;
   text-decoration: none;
 }
+.navigation-links-text1:hover {
+  box-shadow: inset 0px -2px 0px #FF0000;
+}
 .navigation-links-text2 {
   cursor: pointer;
   font-size: 16px;
@@ -42,6 +48,9 @@
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-decoration: none;
+}
+.navigation-links-text2:hover {
+  box-shadow: inset 0px -2px 0px #FF0000;
 }
 .navigation-links-register {
   margin-left: var(--dl-space-space-threeunits);
@@ -75,6 +84,12 @@
     flex-direction: column;
     justify-content: center;
   }
+  .navigation-links-text1 {
+    margin-left: 0px;
+  }
+  .navigation-links-text2 {
+    margin-left: 0px;
+  }
   .navigation-links-register {
     margin-left: 0px;
     margin-bottom: 0px;
@@ -87,6 +102,12 @@
   .navigation-links-nav {
     align-items: center;
     justify-content: center;
+  }
+  .navigation-links-text1 {
+    margin-left: 0px;
+  }
+  .navigation-links-text2 {
+    margin-left: 0px;
   }
   .navigation-links-register {
     margin-left: 0px;
