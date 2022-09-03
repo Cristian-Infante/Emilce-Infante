@@ -36,6 +36,9 @@
 .navigation-links-text3:hover {
   color: var(--dl-color-scheme-brown);
 }
+.navigation-links-register {
+  margin-left: var(--dl-space-space-threeunits);
+}
 
 
 
@@ -45,7 +48,7 @@
 
 
 .navigation-links-root-class-name17 {
-  margin-right: var(--dl-space-space-threeunits);
+  margin-right: 0px;
 }
 .navigation-links-root-class-name18 {
   align-self: center;
@@ -80,6 +83,10 @@
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
+  .navigation-links-register {
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
   .navigation-links-root-class-name18 {
     align-self: center;
   }
@@ -88,6 +95,10 @@
   .navigation-links-nav {
     align-items: center;
     justify-content: center;
+  }
+  .navigation-links-register {
+    margin-left: 0px;
+    margin-bottom: 0px;
   }
   .navigation-links-root-class-name18 {
     align-self: center;
