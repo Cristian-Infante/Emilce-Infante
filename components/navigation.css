@@ -7,34 +7,41 @@
 }
 .navigation-links-text {
   cursor: pointer;
+  font-size: 16px;
   transition: 0.3s;
-}
-.navigation-links-text:hover {
-  color: #ff0000;
+  font-family: DM Sans;
+  font-weight: 500;
+  line-height: 1.6;
+  user-select: none;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-decoration: none;
 }
 .navigation-links-text1 {
   cursor: pointer;
+  font-size: 16px;
   transition: 0.3s;
+  font-family: DM Sans;
+  font-weight: 500;
+  line-height: 1.6;
   margin-left: 41px;
-}
-.navigation-links-text1:hover {
-  color: #ff0000;
+  user-select: none;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-decoration: none;
 }
 .navigation-links-text2 {
   cursor: pointer;
+  font-size: 16px;
   transition: 0.3s;
+  font-family: DM Sans;
+  font-weight: 500;
+  line-height: 1.6;
   margin-left: 41px;
-}
-.navigation-links-text2:hover {
-  color: #ff0000;
-}
-.navigation-links-text3 {
-  cursor: pointer;
-  transition: 0.3s;
-  margin-left: 41px;
-}
-.navigation-links-text3:hover {
-  color: #ff0000;
+  user-select: none;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-decoration: none;
 }
 .navigation-links-register {
   margin-left: var(--dl-space-space-threeunits);
@@ -67,21 +74,6 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-  }
-  .navigation-links-text {
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .navigation-links-text1 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .navigation-links-text2 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .navigation-links-text3 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
   }
   .navigation-links-register {
     margin-left: 0px;
@@ -120,6 +112,7 @@
   max-width: var(--dl-size-size-maxwidth);
   align-items: center;
   padding-top: var(--dl-space-space-halfunit);
+  user-select: none;
   padding-left: var(--dl-space-space-oneandhalfunits);
   padding-right: var(--dl-space-space-oneandhalfunits);
   padding-bottom: var(--dl-space-space-halfunit);

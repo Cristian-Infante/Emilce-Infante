@@ -35,8 +35,10 @@
   text-align: center;
   border-color: var(--dl-color-scheme-black);
   border-width: 0px;
-  border-radius: var(--dl-radius-radius-radius4);
   background-color: var(--dl-color-scheme-white);
+}
+.button:hover {
+  box-shadow: inset 0px -2px 0px #FF0000;
 }
 .input {
   color: var(--dl-color-scheme-black);
@@ -166,13 +168,14 @@
   transition: 0.3s;
   font-weight: 700;
   line-height: 1;
+  user-select: none;
   border-color: transparent;
   border-radius: var(--dl-radius-radius-radius4);
   background-color: rgba(0, 0, 0, 0.1);
 }
 .button-secondary:hover {
   color: var(--dl-color-scheme-white);
-  background-color: #FF0000;
+  background-color: rgba(255, 0, 0, 0.75);
 }
 .button-secondary-white {
   color: #191919;
