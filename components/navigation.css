@@ -10,7 +10,7 @@
   transition: 0.3s;
 }
 .navigation-links-text:hover {
-  color: var(--dl-color-scheme-brown);
+  color: #ff0000;
 }
 .navigation-links-text1 {
   cursor: pointer;
@@ -18,7 +18,7 @@
   margin-left: 41px;
 }
 .navigation-links-text1:hover {
-  color: var(--dl-color-scheme-brown);
+  color: #ff0000;
 }
 .navigation-links-text2 {
   cursor: pointer;
@@ -26,7 +26,7 @@
   margin-left: 41px;
 }
 .navigation-links-text2:hover {
-  color: var(--dl-color-scheme-brown);
+  color: #ff0000;
 }
 .navigation-links-text3 {
   cursor: pointer;
@@ -34,7 +34,7 @@
   margin-left: 41px;
 }
 .navigation-links-text3:hover {
-  color: var(--dl-color-scheme-brown);
+  color: #ff0000;
 }
 .navigation-links-register {
   margin-left: var(--dl-space-space-threeunits);
@@ -98,7 +98,6 @@
   }
   .navigation-links-register {
     margin-left: 0px;
-    margin-bottom: 0px;
   }
   .navigation-links-root-class-name18 {
     align-self: center;

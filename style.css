@@ -172,7 +172,7 @@
 }
 .button-secondary:hover {
   color: var(--dl-color-scheme-white);
-  background-color: var(--dl-color-scheme-brown);
+  background-color: #FF0000;
 }
 .button-secondary-white {
   color: #191919;
@@ -256,10 +256,10 @@
   padding-bottom: 10px;
 }
 .tab-selector-btn:hover {
-  box-shadow: inset 0px -2px 0px #B6472F;
+  box-shadow: inset 0px -2px 0px #FF0000;
 }
 .tab-selector-btn:active {
-  box-shadow: inset 0px -2px 0px #B6472F;
+  box-shadow: inset 0px -2px 0px #FF0000;
 }
 .navigation-Link {
   font-size: 16px;
