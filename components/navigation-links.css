@@ -47,11 +47,16 @@
 .navigation-links-root-class-name17 {
   margin-right: var(--dl-space-space-threeunits);
 }
-
+.navigation-links-root-class-name18 {
+  align-self: center;
+}
 @media(max-width: 991px) {
   .navigation-links-nav {
     align-items: center;
     justify-content: center;
+  }
+  .navigation-links-root-class-name18 {
+    align-self: center;
   }
 }
 @media(max-width: 767px) {
