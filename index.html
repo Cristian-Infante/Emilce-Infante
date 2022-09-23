@@ -1,533 +1,380 @@
 <!DOCTYPE html>
 
-<html lang="en">
-  <head>
-    <title>Emilce Infante</title>
-    <meta property="og:title" content="Emilce Infante" />
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html lang="es">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="utf-8" />
-    <meta property="twitter:card" content="summary_large_image" />
-    <style data-tag="reset-style-sheet">
-      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6 {  margin: 0;  padding: 0;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
-    </style>
-    <style data-tag="default-style-sheet">
-      html {
-        font-family: DM Sans;
-        font-size: 16px;
-      }
+<head>
+  <title>Emilce Infante</title>
+  <meta property="og:title" content="Emilce Infante" />
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-      body {
-        font-weight: 400;
-        font-style:normal;
-        text-decoration: none;
-        text-transform: undefined;
-        letter-spacing: normal;
-        line-height: 1.3;
-        color: var(--dl-color-scheme-darkblue);
-        background-color: var(--dl-color-scheme-white);
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta property="twitter:card" content="summary_large_image" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital,wght@0,400;1,400&display=swap"
+    data-tag="font" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
 
-      }
-    </style>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital,wght@0,400;1,400&display=swap"
-      data-tag="font"
-    />
-    <style>
-      .services-card:hover > div{
-      background-color: #fff
-      }
-    </style>
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <div>
-      <link href="./home.css" rel="stylesheet" />
+<body>
+  <div>
+    <link href="./home.css" rel="stylesheet" />
 
-      <div class="home-container">
-        <header data-role="Header" class="navigation-header">
-          <div class="navigation-max-width">
-            <img
-              alt="image"
-              src="public/playground_assets/logo-emilce_infante-sin_sombra-1500h.png"
-              class="navigation-image"
-            />
-            <div class="navigation-nav">
-              <nav
-                class="navigation-links-nav navigation-links-root-class-name17"
-              >
-                <span class="navigation-links-text"><span>Inicio</span></span>
-                <span class="navigation-links-text1">
-                  <span>Servicios</span>
-                </span>
-                <span class="navigation-links-text2"><span>Menú</span></span>
-                <button
-                  class="navigation-links-register button-secondary button button-md"
-                >
-                  <span>Contactanos</span>
+    <div class="home-container">
+      <header data-role="Header" class="navigation-header">
+        <div class="navigation-max-width">
+          <img alt="image" src="public/playground_assets/logo-emilce_infante-sin_sombra-1500h.png"
+            class="navigation-image" />
+          <div class="navigation-nav">
+            <nav class="navigation-links-nav navigation-links-root-class-name17">
+              <span class="navigation-links-text"><a href="#inicio">Inicio</a></span>
+              <span class="navigation-links-text1"><a href="#servicios">Servicios</a></span>
+              <span class="navigation-links-text2"><a href="#menu">Menú</a></span>
+              <button class="navigation-links-register button-secondary button button-md">
+                <a href="#contacto">Contactanos</a>
+              </button>
+            </nav>
+          </div>
+          <div data-type="BurgerMenu" class="navigation-burger-menu">
+            <svg viewBox="0 0 1024 1024" class="navigation-icon">
+              <path
+                d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z">
+              </path>
+            </svg>
+          </div>
+          <div data-type="MobileMenu" class="navigation-mobile-menu mobile-menu">
+            <div class="navigation-nav1">
+              <div class="navigation-container">
+                <img alt="image" src="public/playground_assets/logo-emilce_infante-sin_sombra-1500h.png"
+                  class="navigation-image1" />
+                <div data-type="CloseMobileMenu" class="navigation-close-mobile-menu">
+                  <svg viewBox="0 0 1024 1024" class="navigation-icon2">
+                    <path
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z">
+                    </path>
+                  </svg>
+                </div>
+              </div>
+              <nav class="navigation-links-nav navigation-links-root-class-name18">
+                <span class="navigation-links-text"><a href="#inicio">Inicio</a></span>
+                <span class="navigation-links-text1"><a href="#servicios">Servicios</a></span>
+                <span class="navigation-links-text2"><a href="#menu">Menú</a></span>
+                <button class="navigation-links-register button-secondary button button-md">
+                  <a href="#contacto">Contactanos</a>
                 </button>
               </nav>
             </div>
-            <div data-type="BurgerMenu" class="navigation-burger-menu">
-              <svg viewBox="0 0 1024 1024" class="navigation-icon">
-                <path
-                  d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
-                ></path>
-              </svg>
-            </div>
-            <div
-              data-type="MobileMenu"
-              class="navigation-mobile-menu mobile-menu"
-            >
-              <div class="navigation-nav1">
-                <div class="navigation-container">
-                  <img
-                    alt="image"
-                    src="public/playground_assets/logo-emilce_infante-sin_sombra-1500h.png"
-                    class="navigation-image1"
-                  />
-                  <div
-                    data-type="CloseMobileMenu"
-                    class="navigation-close-mobile-menu"
-                  >
-                    <svg viewBox="0 0 1024 1024" class="navigation-icon2">
-                      <path
-                        d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
-                      ></path>
-                    </svg>
-                  </div>
-                </div>
-                <nav
-                  class="navigation-links-nav navigation-links-root-class-name18"
-                >
-                  <span class="navigation-links-text"><span>Inicio</span></span>
-                  <span class="navigation-links-text1">
-                    <span>Servicios</span>
-                  </span>
-                  <span class="navigation-links-text2"><span>Menú</span></span>
-                  <button
-                    class="navigation-links-register button-secondary button button-md"
-                  >
-                    <span>Contactanos</span>
-                  </button>
-                </nav>
-              </div>
-            </div>
           </div>
-        </header>
-        <main class="home-main">
-          <div class="home-inicio section-container">
-            <div class="home-max-width max-content-container">
-              <div class="home-heading-container">
-                <h1 class="home-text">
-                  <span>We are a creative agency based</span>
-                  <br />
-                  <span>in Massachusetts</span>
-                </h1>
-                <span class="home-text03">
-                  <span>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod
-                  </span>
-                  <br />
-                  <span>
-                    tempor incididunt ut labore et dolore magna aliqua.
-                  </span>
-                </span>
-              </div>
-              <div class="home-gallery">
-                <div class="home-container1">
-                  <img
-                    alt="image"
-                    src="public/playground_assets/dsc5859-1000w.webp"
-                    class="home-image"
-                  />
-                  <img
-                    alt="image"
-                    src="public/playground_assets/rectangle%2095%20%5B2%5D-1000w.png"
-                    class="home-image1"
-                  />
-                </div>
-                <div class="home-container2">
-                  <img
-                    alt="image"
-                    src="public/playground_assets/1-1000w.jpg"
-                    class="home-image2"
-                  />
-                </div>
-                <div class="home-container3">
-                  <img
-                    alt="image"
-                    src="public/playground_assets/dsc5909-1000w.webp"
-                    class="home-image3"
-                  />
-                  <img
-                    alt="image"
-                    src="public/playground_assets/dsc5923-1000w.webp"
-                    class="home-image4"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="home-servicios section-container">
-            <div class="home-max-width1 max-content-container">
-              <div class="home-heading-container1">
-                <div class="home-text-container">
-                  <span class="home-text07">Nuestros servicios</span>
-                  <h2 class="heading2">
-                    <span>We provide a wide range of</span>
-                    <br />
-                    <span>creative solutions</span>
-                  </h2>
-                </div>
-              </div>
-              <div class="home-cards-container">
-                <div class="services-card-services-card services-card">
-                  <div class="services-card-container">
-                    <img
-                      alt="image"
-                      src="https://cdn-icons-png.flaticon.com/128/685/685352.png"
-                      class="services-card-image"
-                    />
-                  </div>
-                  <span class="services-card-text"><span>Catering</span></span>
-                  <span class="services-card-text1">
-                    <span>
-                      Create your ubest unique App development, crafted for your
-                      business needs.
-                    </span>
-                  </span>
-                </div>
-                <div class="services-card-services-card services-card">
-                  <div class="services-card-container">
-                    <img
-                      alt="image"
-                      src="https://cdn-icons-png.flaticon.com/128/701/701766.png"
-                      class="services-card-image"
-                    />
-                  </div>
-                  <span class="services-card-text">
-                    <span>Copy-writting</span>
-                  </span>
-                  <span class="services-card-text1">
-                    <span>
-                      Create your ubest unique App development, crafted for your
-                      business needs.
-                    </span>
-                  </span>
-                </div>
-                <div class="services-card-services-card services-card">
-                  <div class="services-card-container">
-                    <img
-                      alt="image"
-                      src="https://cdn-icons-png.flaticon.com/128/637/637129.png"
-                      class="services-card-image"
-                    />
-                  </div>
-                  <span class="services-card-text">
-                    <span>Product Design</span>
-                  </span>
-                  <span class="services-card-text1">
-                    <span>
-                      Create your ubest unique App development, crafted for your
-                      business needs.
-                    </span>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="home-men section-container">
-            <span class="home-text12">menú</span>
-            <div class="home-max-width2 max-content-container">
-              <div class="home-tab-selector-header">
-                <span class="home-text13 tab-selector-btn">Entradas</span>
-                <span class="home-text14 tab-selector-btn">Platos fuertes</span>
-                <span class="home-text15 tab-selector-btn">Pasabocas</span>
-              </div>
-              <div class="home-tab-selector-cards-container">
-                <div
-                  class="portofolio-card-speaker-card portofolio-card-root-class-name"
-                >
-                  <div class="portofolio-card-image-container">
-                    <img
-                      alt="image"
-                      src="public/playground_assets/dsc5898-400h.webp"
-                      class="portofolio-card-image"
-                    />
-                    <div class="portofolio-card-see-project-container"></div>
-                  </div>
-                  <span class="portofolio-card-first-name">
-                    <span>Office Life Campaign - Boost your creativity</span>
-                  </span>
-                </div>
-                <div
-                  class="portofolio-card-speaker-card portofolio-card-root-class-name5"
-                >
-                  <div class="portofolio-card-image-container">
-                    <img
-                      alt="image"
-                      src="public/playground_assets/dsc5898-400h.webp"
-                      class="portofolio-card-image"
-                    />
-                    <div class="portofolio-card-see-project-container"></div>
-                  </div>
-                  <span class="portofolio-card-first-name">
-                    <span>A brand-new advertising idea</span>
-                  </span>
-                </div>
-                <div
-                  class="portofolio-card-speaker-card portofolio-card-root-class-name4"
-                >
-                  <div class="portofolio-card-image-container">
-                    <img
-                      alt="image"
-                      src="public/playground_assets/dsc5898-400h.webp"
-                      class="portofolio-card-image"
-                    />
-                    <div class="portofolio-card-see-project-container"></div>
-                  </div>
-                  <span class="portofolio-card-first-name">
-                    <span>Coca-Cola Summer Concept Campaign - 2021</span>
-                  </span>
-                </div>
-                <div
-                  class="portofolio-card-speaker-card portofolio-card-root-class-name3"
-                >
-                  <div class="portofolio-card-image-container">
-                    <img
-                      alt="image"
-                      src="public/playground_assets/dsc5898-400h.webp"
-                      class="portofolio-card-image"
-                    />
-                    <div class="portofolio-card-see-project-container"></div>
-                  </div>
-                  <span class="portofolio-card-first-name">
-                    <span>
-                      Ad Campaign - I love you as much as I love Nutella
-                    </span>
-                  </span>
-                </div>
-                <div
-                  class="portofolio-card-speaker-card portofolio-card-root-class-name2"
-                >
-                  <div class="portofolio-card-image-container">
-                    <img
-                      alt="image"
-                      src="public/playground_assets/dsc5898-400h.webp"
-                      class="portofolio-card-image"
-                    />
-                    <div class="portofolio-card-see-project-container"></div>
-                  </div>
-                  <span class="portofolio-card-first-name">
-                    <span>Coca-Colla Next Door Campaign - conceptual</span>
-                  </span>
-                </div>
-                <div
-                  class="portofolio-card-speaker-card portofolio-card-root-class-name1"
-                >
-                  <div class="portofolio-card-image-container">
-                    <img
-                      alt="image"
-                      src="public/playground_assets/dsc5898-400h.webp"
-                      class="portofolio-card-image"
-                    />
-                    <div class="portofolio-card-see-project-container"></div>
-                  </div>
-                  <span class="portofolio-card-first-name">
-                    <span>
-                      Starbucks secret is a smile when you get your latte
-                    </span>
-                  </span>
-                </div>
-                <div
-                  class="portofolio-card-speaker-card portofolio-card-root-class-name6"
-                >
-                  <div class="portofolio-card-image-container">
-                    <img
-                      alt="image"
-                      src="public/playground_assets/dsc5898-400h.webp"
-                      class="portofolio-card-image"
-                    />
-                    <div class="portofolio-card-see-project-container"></div>
-                  </div>
-                  <span class="portofolio-card-first-name">
-                    <span>Office Life Campaign - Boost your creativity</span>
-                  </span>
-                </div>
-                <div
-                  class="portofolio-card-speaker-card portofolio-card-root-class-name7"
-                >
-                  <div class="portofolio-card-image-container">
-                    <img
-                      alt="image"
-                      src="public/playground_assets/dsc5898-400h.webp"
-                      class="portofolio-card-image"
-                    />
-                    <div class="portofolio-card-see-project-container"></div>
-                  </div>
-                  <span class="portofolio-card-first-name">
-                    <span>Office Life Campaign - Boost your creativity</span>
-                  </span>
-                </div>
-                <div
-                  class="portofolio-card-speaker-card portofolio-card-root-class-name8"
-                >
-                  <div class="portofolio-card-image-container">
-                    <img
-                      alt="image"
-                      src="public/playground_assets/dsc5898-400h.webp"
-                      class="portofolio-card-image"
-                    />
-                    <div class="portofolio-card-see-project-container"></div>
-                  </div>
-                  <span class="portofolio-card-first-name">
-                    <span>Office Life Campaign - Boost your creativity</span>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="home-contacto">
-            <span class="home-text16">CONTACTAME EN</span>
-            <div class="home-contact">
-              <button class="button">
-                <span>
-                  <span>WhatsApp</span>
-                  <br />
-                </span>
-                <svg viewBox="0 0 877.7142857142857 1024" class="home-icon">
-                  <path
-                    d="M562.857 556.571c9.714 0 102.857 48.571 106.857 55.429 1.143 2.857 1.143 6.286 1.143 8.571 0 14.286-4.571 30.286-9.714 43.429-13.143 32-66.286 52.571-98.857 52.571-27.429 0-84-24-108.571-35.429-81.714-37.143-132.571-100.571-181.714-173.143-21.714-32-41.143-71.429-40.571-110.857v-4.571c1.143-37.714 14.857-64.571 42.286-90.286 8.571-8 17.714-12.571 29.714-12.571 6.857 0 13.714 1.714 21.143 1.714 15.429 0 18.286 4.571 24 19.429 4 9.714 33.143 87.429 33.143 93.143 0 21.714-39.429 46.286-39.429 59.429 0 2.857 1.143 5.714 2.857 8.571 12.571 26.857 36.571 57.714 58.286 78.286 26.286 25.143 54.286 41.714 86.286 57.714 4 2.286 8 4 12.571 4 17.143 0 45.714-55.429 60.571-55.429zM446.857 859.429c197.714 0 358.857-161.143 358.857-358.857s-161.143-358.857-358.857-358.857-358.857 161.143-358.857 358.857c0 75.429 24 149.143 68.571 210.286l-45.143 133.143 138.286-44c58.286 38.286 127.429 59.429 197.143 59.429zM446.857 69.714c237.714 0 430.857 193.143 430.857 430.857s-193.143 430.857-430.857 430.857c-72.571 0-144.571-18.286-208.571-53.714l-238.286 76.571 77.714-231.429c-40.571-66.857-61.714-144-61.714-222.286 0-237.714 193.143-430.857 430.857-430.857z"
-                  ></path>
-                </svg>
-              </button>
-              <button class="button">
-                <span>
-                  <span>Instagram</span>
-                  <br />
-                </span>
-                <svg viewBox="0 0 877.7142857142857 1024" class="home-icon2">
-                  <path
-                    d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
-                  ></path>
-                </svg>
-              </button>
-            </div>
-          </div>
-        </main>
-        <div class="home-footer section-container">
-          <footer class="home-max-width3 max-content-container">
-            <img
-              alt="image"
-              src="public/playground_assets/logo-emilce_infante-sin_sombra-200h.png"
-              class="home-image5"
-            />
-            <span class="home-text23">
-              <span>Designed by</span>
-              <span class="home-text25">Cristian Infante</span>
-            </span>
-          </footer>
         </div>
+      </header>
+      <main class="home-main">
+        <div id="inicio" class="home-inicio section-container">
+          <div class="home-max-width max-content-container">
+            <div class="home-heading-container">
+              <h1 class="home-text">
+                <span>LOREM IPSUM DOLOR SIT AMET</span>
+              </h1>
+              <span class="home-text03">
+                <span>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                </span>
+                <br />
+                <span>
+                  tempor incididunt ut labore et dolore magna aliqua.
+                </span>
+              </span>
+            </div>
+            <div class="home-gallery">
+              <div class="home-container1">
+                <img alt="image" src="public/playground_assets/dsc5859-1000w.webp" class="home-image" />
+                <img alt="image" src="public/playground_assets/rectangle%2095%20%5B2%5D-1000w.png"
+                  class="home-image1" />
+              </div>
+              <div class="home-container2">
+                <img alt="image" src="public/playground_assets/1-1000w.jpg" class="home-image2" />
+              </div>
+              <div class="home-container3">
+                <img alt="image" src="public/playground_assets/dsc5909-1000w.webp" class="home-image3" />
+                <img alt="image" src="public/playground_assets/dsc5923-1000w.webp" class="home-image4" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="servicios" class="home-servicios section-container">
+          <div class="home-max-width1 max-content-container">
+            <div class="home-heading-container1">
+              <div class="home-text-container">
+                <span class="home-text07">Nuestros servicios</span>
+                <h2 class="heading2">
+                  <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod</span>
+                </h2>
+              </div>
+            </div>
+            <div class="home-cards-container">
+              <div class="services-card-services-card services-card">
+                <div class="services-card-container">
+                  <img alt="image" src="https://cdn-icons-png.flaticon.com/128/685/685352.png"
+                    class="services-card-image" />
+                </div>
+                <span class="services-card-text">
+                  <span>Eventos corporativos</span>
+                </span>
+                <span class="services-card-text1">
+                  <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                </span>
+              </div>
+              <div class="services-card-services-card services-card">
+                <div class="services-card-container">
+                  <img alt="image" src="https://cdn-icons-png.flaticon.com/128/701/701766.png"
+                    class="services-card-image" />
+                </div>
+                <span class="services-card-text">
+                  <span>Bodas</span>
+                </span>
+                <span class="services-card-text1">
+                  <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                </span>
+              </div>
+              <div class="services-card-services-card services-card">
+                <div class="services-card-container">
+                  <img alt="image" src="https://cdn-icons-png.flaticon.com/128/637/637129.png"
+                    class="services-card-image" />
+                </div>
+                <span class="services-card-text">
+                  <span>Eventos especiales</span>
+                </span>
+                <span class="services-card-text1">
+                  <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="menu" class="home-men section-container">
+          <span class="home-text12">Menú</span>
+          <div class="home-max-width2 max-content-container">
+            <div class="home-tab-selector-header">
+              <span class="home-text13 tab-selector-btn">Entradas</span>
+              <span class="home-text14 tab-selector-btn">Platos fuertes</span>
+              <span class="home-text15 tab-selector-btn">Pasabocas</span>
+            </div>
+            <div class="home-tab-selector-cards-container">
+              <div class="portofolio-card-speaker-card portofolio-card-root-class-name">
+                <div class="portofolio-card-image-container">
+                  <img alt="image" src="public/playground_assets/dsc5898-400h.webp" class="portofolio-card-image" />
+                  <div class="portofolio-card-see-project-container"></div>
+                </div>
+                <span class="portofolio-card-first-name">
+                  <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                </span>
+              </div>
+              <div class="portofolio-card-speaker-card portofolio-card-root-class-name5">
+                <div class="portofolio-card-image-container">
+                  <img alt="image" src="public/playground_assets/dsc5898-400h.webp" class="portofolio-card-image" />
+                  <div class="portofolio-card-see-project-container"></div>
+                </div>
+                <span class="portofolio-card-first-name">
+                  <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                </span>
+              </div>
+              <div class="portofolio-card-speaker-card portofolio-card-root-class-name4">
+                <div class="portofolio-card-image-container">
+                  <img alt="image" src="public/playground_assets/dsc5898-400h.webp" class="portofolio-card-image" />
+                  <div class="portofolio-card-see-project-container"></div>
+                </div>
+                <span class="portofolio-card-first-name">
+                  <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                </span>
+              </div>
+              <div class="portofolio-card-speaker-card portofolio-card-root-class-name3">
+                <div class="portofolio-card-image-container">
+                  <img alt="image" src="public/playground_assets/dsc5898-400h.webp" class="portofolio-card-image" />
+                  <div class="portofolio-card-see-project-container"></div>
+                </div>
+                <span class="portofolio-card-first-name">
+                  <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                </span>
+              </div>
+              <div class="portofolio-card-speaker-card portofolio-card-root-class-name2">
+                <div class="portofolio-card-image-container">
+                  <img alt="image" src="public/playground_assets/dsc5898-400h.webp" class="portofolio-card-image" />
+                  <div class="portofolio-card-see-project-container"></div>
+                </div>
+                <span class="portofolio-card-first-name">
+                  <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                </span>
+              </div>
+              <div class="portofolio-card-speaker-card portofolio-card-root-class-name1">
+                <div class="portofolio-card-image-container">
+                  <img alt="image" src="public/playground_assets/dsc5898-400h.webp" class="portofolio-card-image" />
+                  <div class="portofolio-card-see-project-container"></div>
+                </div>
+                <span class="portofolio-card-first-name">
+                  <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                </span>
+              </div>
+              <div class="portofolio-card-speaker-card portofolio-card-root-class-name6">
+                <div class="portofolio-card-image-container">
+                  <img alt="image" src="public/playground_assets/dsc5898-400h.webp" class="portofolio-card-image" />
+                  <div class="portofolio-card-see-project-container"></div>
+                </div>
+                <span class="portofolio-card-first-name">
+                  <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                </span>
+              </div>
+              <div class="portofolio-card-speaker-card portofolio-card-root-class-name7">
+                <div class="portofolio-card-image-container">
+                  <img alt="image" src="public/playground_assets/dsc5898-400h.webp" class="portofolio-card-image" />
+                  <div class="portofolio-card-see-project-container"></div>
+                </div>
+                <span class="portofolio-card-first-name">
+                  <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                </span>
+              </div>
+              <div class="portofolio-card-speaker-card portofolio-card-root-class-name8">
+                <div class="portofolio-card-image-container">
+                  <img alt="image" src="public/playground_assets/dsc5898-400h.webp" class="portofolio-card-image" />
+                  <div class="portofolio-card-see-project-container"></div>
+                </div>
+                <span class="portofolio-card-first-name">
+                  <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="contacto" class="home-contacto">
+          <span class="home-text16">CONTACTANOS EN</span>
+          <div class="home-contact">
+            <button class="button">
+              <span>
+                <span>WhatsApp</span>
+                <br />
+              </span>
+              <svg viewBox="0 0 877.7142857142857 1024" class="home-icon">
+                <path
+                  d="M562.857 556.571c9.714 0 102.857 48.571 106.857 55.429 1.143 2.857 1.143 6.286 1.143 8.571 0 14.286-4.571 30.286-9.714 43.429-13.143 32-66.286 52.571-98.857 52.571-27.429 0-84-24-108.571-35.429-81.714-37.143-132.571-100.571-181.714-173.143-21.714-32-41.143-71.429-40.571-110.857v-4.571c1.143-37.714 14.857-64.571 42.286-90.286 8.571-8 17.714-12.571 29.714-12.571 6.857 0 13.714 1.714 21.143 1.714 15.429 0 18.286 4.571 24 19.429 4 9.714 33.143 87.429 33.143 93.143 0 21.714-39.429 46.286-39.429 59.429 0 2.857 1.143 5.714 2.857 8.571 12.571 26.857 36.571 57.714 58.286 78.286 26.286 25.143 54.286 41.714 86.286 57.714 4 2.286 8 4 12.571 4 17.143 0 45.714-55.429 60.571-55.429zM446.857 859.429c197.714 0 358.857-161.143 358.857-358.857s-161.143-358.857-358.857-358.857-358.857 161.143-358.857 358.857c0 75.429 24 149.143 68.571 210.286l-45.143 133.143 138.286-44c58.286 38.286 127.429 59.429 197.143 59.429zM446.857 69.714c237.714 0 430.857 193.143 430.857 430.857s-193.143 430.857-430.857 430.857c-72.571 0-144.571-18.286-208.571-53.714l-238.286 76.571 77.714-231.429c-40.571-66.857-61.714-144-61.714-222.286 0-237.714 193.143-430.857 430.857-430.857z">
+                </path>
+              </svg>
+            </button>
+            <button class="button">
+              <span>
+                <span>Instagram</span>
+                <br />
+              </span>
+              <svg viewBox="0 0 877.7142857142857 1024" class="home-icon2">
+                <path
+                  d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z">
+                </path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </main>
+      <div class="home-footer section-container">
+        <footer class="home-max-width3 max-content-container">
+          <img alt="image" src="public/playground_assets/logo-emilce_infante-sin_sombra-200h.png" class="home-image5" />
+          <span class="home-text23">
+            <span>Designed by</span>
+            <span class="home-text25">Cristian Infante</span>
+          </span>
+        </footer>
       </div>
     </div>
-    <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
-    <script>
-      window.onload = () => {
-        const runAllScripts = () => {
-          initializeAllSliders();
-        };
-
-        const listenForUrlChanges = () => {
-          let url = location.href;
-          document.body.addEventListener(
-            "click",
-            () => {
-              requestAnimationFrame(() => {
-                if (url !== location.href) {
-                  runAllScripts();
-                  url = location.href;
-                }
-              });
-            },
-            true
-          );
-        };
-
-        const initializeAllSliders = () => {
-          const allSliders = document.querySelectorAll('[data-type="slider"]');
-          allSliders.forEach((slider) => {
-            initializeSlider(slider);
-          });
-        };
-
-        const initializeSlider = (slider) => {
-          const slides = slider.querySelectorAll('[data-type="slide"]');
-          const middle = Math.ceil(slides.length / 2);
-          let currentSlide = middle;
-
-          const nextSlideBtns = document.querySelectorAll(
-            '[data-action="nextSlide"]'
-          );
-          const previousSlideBtns = document.querySelectorAll(
-            '[data-action="previousSlide"]'
-          );
-
-          const changeSlide = (slideIndex, action) => {
-            currentSlide = slideIndex;
-
-            switch (action) {
-              case "next":
-                slideIndex === slides.length
-                  ? (currentSlide = 1)
-                  : currentSlide++;
-                break;
-              case "previous":
-                slideIndex === 1
-                  ? (currentSlide = slides.length)
-                  : currentSlide--;
-            }
-
-            const slide = slides[0];
-            if (!slide) {
-              console.error("No slides present");
-              return;
-            }
-            const style = window.getComputedStyle(slide);
-            slideWidth =
-              parseInt(style.width) +
-              parseInt(style.marginLeft) +
-              parseInt(style.marginRight);
-            const transformValue = -slideWidth * (currentSlide - middle);
-
-            slider.style.transform = `translateX(${transformValue}px)`;
-          };
-
-          previousSlideBtns.forEach((btn) => {
-            btn.addEventListener("click", () =>
-              changeSlide(currentSlide, "previous")
-            );
-          });
-
-          nextSlideBtns.forEach((btn) => {
-            btn.addEventListener("click", () =>
-              changeSlide(currentSlide, "next")
-            );
-          });
-        };
-
-        runAllScripts();
+  </div>
+  <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+  <script>
+    window.onload = () => {
+      const runAllScripts = () => {
+        initializeAllSliders();
       };
-    </script>
-  </body>
+
+      const listenForUrlChanges = () => {
+        let url = location.href;
+        document.body.addEventListener(
+          "click",
+          () => {
+            requestAnimationFrame(() => {
+              if (url !== location.href) {
+                runAllScripts();
+                url = location.href;
+              }
+            });
+          },
+          true
+        );
+      };
+
+      const initializeAllSliders = () => {
+        const allSliders = document.querySelectorAll('[data-type="slider"]');
+        allSliders.forEach((slider) => {
+          initializeSlider(slider);
+        });
+      };
+
+      const initializeSlider = (slider) => {
+        const slides = slider.querySelectorAll('[data-type="slide"]');
+        const middle = Math.ceil(slides.length / 2);
+        let currentSlide = middle;
+
+        const nextSlideBtns = document.querySelectorAll(
+          '[data-action="nextSlide"]'
+        );
+        const previousSlideBtns = document.querySelectorAll(
+          '[data-action="previousSlide"]'
+        );
+
+        const changeSlide = (slideIndex, action) => {
+          currentSlide = slideIndex;
+
+          switch (action) {
+            case "next":
+              slideIndex === slides.length ?
+                (currentSlide = 1) :
+                currentSlide++;
+              break;
+            case "previous":
+              slideIndex === 1 ?
+                (currentSlide = slides.length) :
+                currentSlide--;
+          }
+
+          const slide = slides[0];
+          if (!slide) {
+            console.error("No slides present");
+            return;
+          }
+          const style = window.getComputedStyle(slide);
+          slideWidth =
+            parseInt(style.width) +
+            parseInt(style.marginLeft) +
+            parseInt(style.marginRight);
+          const transformValue = -slideWidth * (currentSlide - middle);
+
+          slider.style.transform = `translateX(${transformValue}px)`;
+        };
+
+        previousSlideBtns.forEach((btn) => {
+          btn.addEventListener("click", () =>
+            changeSlide(currentSlide, "previous")
+          );
+        });
+
+        nextSlideBtns.forEach((btn) => {
+          btn.addEventListener("click", () =>
+            changeSlide(currentSlide, "next")
+          );
+        });
+      };
+
+      runAllScripts();
+    };
+  </script>
+</body>
+
 </html>
