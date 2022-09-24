@@ -768,9 +768,7 @@ a{
 }
 
 .home-max-width3 {
-  padding-left: 0px;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .home-image5 {
