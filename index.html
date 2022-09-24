@@ -8,28 +8,18 @@
   <meta property="twitter:card" content="summary_large_image" />
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta charset="utf-8" />
-  <meta property="twitter:card" content="summary_large_image" />
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
-    data-tag="font" />
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital,wght@0,400;1,400&display=swap"
-    data-tag="font" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" data-tag="font" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital,wght@0,400;1,400&display=swap" data-tag="font" />
   <link rel="stylesheet" href="./style.css" />
+  <link href="./home.css" rel="stylesheet" />
 </head>
 
 <body>
   <div>
-    <link href="./home.css" rel="stylesheet" />
-
     <div class="home-container">
       <header data-role="Header" class="navigation-header">
         <div class="navigation-max-width">
-          <img alt="image" src="public/playground_assets/logo-emilce_infante-sin_sombra-1500h.png"
-            class="navigation-image" />
+          <img alt="image" src="public/playground_assets/logo-emilce_infante-sin_sombra-1500h.png" class="navigation-image" />
           <div class="navigation-nav">
             <nav class="navigation-links-nav navigation-links-root-class-name17">
               <span class="navigation-links-text"><a href="#inicio">Inicio</a></span>
@@ -42,20 +32,17 @@
           </div>
           <div data-type="BurgerMenu" class="navigation-burger-menu">
             <svg viewBox="0 0 1024 1024" class="navigation-icon">
-              <path
-                d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z">
+              <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z">
               </path>
             </svg>
           </div>
           <div data-type="MobileMenu" class="navigation-mobile-menu mobile-menu">
             <div class="navigation-nav1">
               <div class="navigation-container">
-                <img alt="image" src="public/playground_assets/logo-emilce_infante-sin_sombra-1500h.png"
-                  class="navigation-image1" />
+                <img alt="image" src="public/playground_assets/logo-emilce_infante-sin_sombra-1500h.png" class="navigation-image1" />
                 <div data-type="CloseMobileMenu" class="navigation-close-mobile-menu">
                   <svg viewBox="0 0 1024 1024" class="navigation-icon2">
-                    <path
-                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z">
+                    <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z">
                     </path>
                   </svg>
                 </div>
@@ -290,94 +277,7 @@
       </div>
     </div>
   </div>
-  <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
-  <script>
-    window.onload = () => {
-      const runAllScripts = () => {
-        initializeAllSliders();
-      };
-
-      const listenForUrlChanges = () => {
-        let url = location.href;
-        document.body.addEventListener(
-          "click",
-          () => {
-            requestAnimationFrame(() => {
-              if (url !== location.href) {
-                runAllScripts();
-                url = location.href;
-              }
-            });
-          },
-          true
-        );
-      };
-
-      const initializeAllSliders = () => {
-        const allSliders = document.querySelectorAll('[data-type="slider"]');
-        allSliders.forEach((slider) => {
-          initializeSlider(slider);
-        });
-      };
-
-      const initializeSlider = (slider) => {
-        const slides = slider.querySelectorAll('[data-type="slide"]');
-        const middle = Math.ceil(slides.length / 2);
-        let currentSlide = middle;
-
-        const nextSlideBtns = document.querySelectorAll(
-          '[data-action="nextSlide"]'
-        );
-        const previousSlideBtns = document.querySelectorAll(
-          '[data-action="previousSlide"]'
-        );
-
-        const changeSlide = (slideIndex, action) => {
-          currentSlide = slideIndex;
-
-          switch (action) {
-            case "next":
-              slideIndex === slides.length ?
-                (currentSlide = 1) :
-                currentSlide++;
-              break;
-            case "previous":
-              slideIndex === 1 ?
-                (currentSlide = slides.length) :
-                currentSlide--;
-          }
-
-          const slide = slides[0];
-          if (!slide) {
-            console.error("No slides present");
-            return;
-          }
-          const style = window.getComputedStyle(slide);
-          slideWidth =
-            parseInt(style.width) +
-            parseInt(style.marginLeft) +
-            parseInt(style.marginRight);
-          const transformValue = -slideWidth * (currentSlide - middle);
-
-          slider.style.transform = `translateX(${transformValue}px)`;
-        };
-
-        previousSlideBtns.forEach((btn) => {
-          btn.addEventListener("click", () =>
-            changeSlide(currentSlide, "previous")
-          );
-        });
-
-        nextSlideBtns.forEach((btn) => {
-          btn.addEventListener("click", () =>
-            changeSlide(currentSlide, "next")
-          );
-        });
-      };
-
-      runAllScripts();
-    };
-  </script>
+  <script src="script.js"></script>
 </body>
 
 </html>

@@ -963,9 +963,7 @@ a{
 
   .home-max-width3 {
     align-items: center;
-    padding-right: 0px;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
   }
 
   .home-image5 {
