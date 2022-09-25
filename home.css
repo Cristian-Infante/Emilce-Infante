@@ -98,7 +98,10 @@ body {
   line-height: 1.3;
   color: var(--dl-color-scheme-darkblue);
   background-color: var(--dl-color-scheme-white);
+}
 
+::-webkit-scrollbar {
+  display: none;
 }
 
 a{

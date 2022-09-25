@@ -84,6 +84,58 @@ window.onload = () => {
     runAllScripts();
 };
 
+
+let IPF = IPS = IEN = 0;
+document.getElementById("entradas").onclick = function() {entradas()};
+function entradas(){
+    if(IEN == 0){
+        document.getElementById('ientradas').style.display = "block";
+        document.getElementById('ipfuertes').style.display = "none";
+        document.getElementById('ipasabocas').style.display = "none";
+        IEN = 1;
+        IPF = IPS = 0;
+    }
+    else{        
+        document.getElementById('ientradas').style.display = "block";
+        document.getElementById('ipfuertes').style.display = "block";
+        document.getElementById('ipasabocas').style.display = "block";
+        IEN = 0;
+    }
+}
+document.getElementById("pfuertes").onclick = function() {pfuertes()};
+function pfuertes(){
+    if(IPF == 0){
+        document.getElementById('ientradas').style.display = "none";
+        document.getElementById('ipfuertes').style.display = "block";
+        document.getElementById('ipasabocas').style.display = "none";
+        IPF = 1;
+        IEN = IPS = 0;
+    }
+    else{        
+        document.getElementById('ientradas').style.display = "block";
+        document.getElementById('ipfuertes').style.display = "block";
+        document.getElementById('ipasabocas').style.display = "block";
+        IPF = 0;
+    }
+}
+document.getElementById("pasabocas").onclick = function() {pasabocas()};
+function pasabocas(){
+    if(IPS == 0){
+        document.getElementById('ientradas').style.display = "none";
+        document.getElementById('ipfuertes').style.display = "none";
+        document.getElementById('ipasabocas').style.display = "block";
+        IPS = 1;
+        IPF = IEN = 0;
+    }
+    else{        
+        document.getElementById('ientradas').style.display = "block";
+        document.getElementById('ipfuertes').style.display = "block";
+        document.getElementById('ipasabocas').style.display = "block";
+        IPS = 0;
+    }
+}
+
+
 (function () {
     class Menu {
       init = () => {
@@ -100,7 +152,7 @@ window.onload = () => {
         );
   
         if (allHeaders.length === 0) {
-          teleport.log("No teleport Headers found in your project");
+          teleport.log("No Headers found in your project");
         }
   
         allHeaders.forEach((header) => {
@@ -145,7 +197,7 @@ window.onload = () => {
         );
   
         if (allNavbars.length === 0) {
-          teleport.log("No teleport Navbars found in your project");
+          teleport.log("No Navbars found in your project");
         }
   
         allNavbars.forEach((navbar) => {
@@ -239,7 +291,7 @@ window.onload = () => {
         );
   
         if (!allAccordions.length) {
-          teleport.log("No teleport Accordions found in project");
+          teleport.log("No Accordions found in project");
         }
   
         allAccordions.forEach((accordion) => {
