@@ -360,7 +360,7 @@ a{
 
 @media(max-width: 767px) {
   .navigation-max-width {
-    padding: var(--dl-space-space-unit);
+    padding: var(--dl-space-space-halfunit);
   }
 
   .navigation-mobile-menu {
